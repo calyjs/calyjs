@@ -16,8 +16,37 @@ All new work must begin from a new branch created off the latest `develop` branc
 - `style/<short-description>` — Code style or formatting changes
 - `refactor/<short-description>` — Code restructuring
 - `ci/<short-description>` — CI/CD pipeline or config updates
-- `ticket/<ticket-id>` — Work related to specific tickets
 - `revert/<commit-hash>` — Reverts to a previous state
+
+---
+
+## 💬 Commit Message Format
+
+We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard to keep our history readable and automated tooling effective.
+
+### ✅ Use the following format:
+
+```
+<type>: <short description>
+```
+
+### 📌 Examples:
+
+- `fix: handle null pointer in user model`
+- `feat: add search endpoint for articles`
+- `docs: update installation guide`
+- `chore: bump dependencies`
+- `refactor: simplify date parsing logic`
+- `style: apply prettier formatting`
+- `test: add unit test for login flow`
+- `ci: update GitHub Actions node version`
+
+### ⚠️ Avoid:
+
+- `updated code`
+- `fixed stuff`
+- `final changes`
+- `misc updates`
 
 ---
 
