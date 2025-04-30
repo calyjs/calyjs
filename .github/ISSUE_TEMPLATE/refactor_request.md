@@ -1,5 +1,5 @@
 ---
-name: 🧹 Refactor / Code Cleanup
+name: Refactor / Code Cleanup
 about: Propose refactoring code or improving structure/quality without changing behavior
 title: "[Refactor]: "
 labels: refactor
@@ -7,19 +7,19 @@ assignees: ''
 
 ---
 
-## 🔧 What part of the code needs refactoring?
+## What part of the code needs refactoring?
 
 Be specific: file(s), function(s), or modules involved.
 
-## 💭 Why is this refactor needed?
+## Why is this refactor needed?
 
 Explain the motivation: tech debt, readability, duplication, performance, etc.
 
-## ✅ Expected outcome
+## Expected outcome
 
 What should the code look or behave like after the refactor (without changing features)?
 
-## 📦 Additional notes or context
+## Additional notes or context
 
 Add any relevant information, guidelines, or references here.
 

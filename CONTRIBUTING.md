@@ -4,11 +4,11 @@ Thank you for your interest in contributing to this project! To maintain consist
 
 ---
 
-## 📁 Branching Strategy
+## Branching Strategy
 
 All new work must begin from a new branch created off the latest `develop` branch.
 
-### ✅ Accepted Branch Name Formats:
+### Accepted Branch Name Formats:
 - `feature/<short-description>` — New feature implementation
 - `fix/<short-description>` — Bug fixes
 - `chore/<short-description>` — Maintenance tasks
@@ -20,17 +20,17 @@ All new work must begin from a new branch created off the latest `develop` branc
 
 ---
 
-## 💬 Commit Message Format
+## Commit Message Format
 
 We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard to keep our history readable and automated tooling effective.
 
-### ✅ Use the following format:
+### Use the following format:
 
 ```
 <type>: <short description>
 ```
 
-### 📌 Examples:
+### Examples:
 
 - `fix: handle null pointer in user model`
 - `feat: add search endpoint for articles`
@@ -41,7 +41,7 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0
 - `test: add unit test for login flow`
 - `ci: update GitHub Actions node version`
 
-### ⚠️ Avoid:
+### Avoid:
 
 - `updated code`
 - `fixed stuff`
@@ -50,7 +50,7 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0
 
 ---
 
-## 📦 Development Workflow
+## Development Workflow
 
 1. **Fork the repository** (if you don't have write access).
 2. **Create your branch** using an appropriate prefix as described above.
@@ -63,7 +63,7 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0
 
 ---
 
-## 🔁 Pull Request Lifecycle
+## Pull Request Lifecycle
 
 - PR must target `develop` branch.
 - All status checks (CI, tests, linters) must pass.
@@ -73,13 +73,13 @@ Once your changes are merged into `develop`, a new PR must be created for the `m
 
 ---
 
-## 🚀 Release Process
+## Release Process
 
 After a PR is approved and merged into `master`, the release process is triggered **manually** by maintainers.
 
 ---
 
-## 💬 Questions or Suggestions?
+## Questions or Suggestions?
 
 Please open a [Discussion](https://github.com/calyjs/calyjs/discussions) or create an [Issue](https://github.com/calyjs/calyjs/issues) if you have questions, suggestions, or feedback.
 
